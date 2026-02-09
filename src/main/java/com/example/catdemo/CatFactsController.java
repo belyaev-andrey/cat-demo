@@ -47,7 +47,6 @@ class CatFactsController {
 
 }
 
-
 interface CatFactsClient {
     @GetExchange(url = "https://www.catfacts.net/api")
     CatFacts facts();
